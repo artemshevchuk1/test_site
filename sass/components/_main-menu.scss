@@ -1,0 +1,35 @@
+.main-menu{
+    margin: 20px 0px;
+}
+
+
+.main-menu-list{
+    display: flex;
+    background-color: #FF5816;
+    border-radius: 10px;
+    border: 1px ;
+    padding:0px 10px;
+}
+
+.main-menu-item{
+    &:not(:last-child){
+        margin-right: 8px;
+    }
+
+.main-menu-button{
+ font-weight: 400;
+    font-size: 10px;
+    line-height: 22px;
+text-transform: uppercase;
+
+padding:0px 10px;
+color: #0d0d0d;
+
+background: #FF5816;
+&:hover,
+&:focus{background-color:#eae98f}
+border-radius: 10px;
+    border: 1px ;
+cursor: pointer;
+}
+}
